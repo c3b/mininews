@@ -1,0 +1,73 @@
+body{
+
+    background: url('../img/espace.jpg') no-repeat center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; 
+}
+
+.messages{
+    font-size: 1.2em;
+    margin-top: 8px;
+    border-top: groove rgba(255,255,255,0.3) 1px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    color: white;
+}
+
+.containerMessage{
+    background-color: black;
+    opacity: 0.8;
+    width: 450px;
+    padding: 0px;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: rgba(0,0,0,0.6) 5px 5px 5px;
+}
+
+#messagePoste{
+
+    font-size: 1em;
+    color: brown;
+}
+
+#retourMessage{
+    font-size: 1.2em;
+    color: grey;
+}
+
+.pseudo{
+    font-size: 0.9em;
+    margin-right: 10px;
+    color: seagreen;
+    display: inline-block;
+}
+
+.datesMessages{
+    font-size: 0.8em;
+    display: inline;
+    color: whitesmoke;
+    opacity: 0.6;
+    width: 30%;
+    margin-bottom: -2px;
+}
+
+.chatTitle{
+    font-size: 2em;
+    color: seagreen;
+    text-align: center;
+}
+
+.action{
+    display: inline;
+    color: whitesmoke;
+}
+
+.bonjour{
+    color: whitesmoke;
+    float: left;
+    margin-right: 50px;
+    display: inline;
+}
